@@ -1,0 +1,91 @@
+ #myChart {
+     cursor: hand;
+     margin-bottom: 28px;
+     margin-top: 28px;
+ }
+ #gauge1, #gauge2, #gauge3 {
+     max-width: 100%;
+     max-height: 100%;
+ }
+ html {
+     text-align: center;
+     width: 100%;
+ }
+ a {
+     color: white;
+     padding-left: 10px;
+ }
+ a:hover {
+     color: #222222;
+     cursor: hand;
+ }
+ body {
+     text-align: center;
+     width: 100%;
+ }
+ .ui-slider {
+     position: relative;
+     width: 250px;
+ }
+ .ui-slider-handle {
+     background: white;
+     border: 10px;
+     border-color: #222222;
+ }
+ .ui-slider .ui-slider-range {
+     background: #222222;
+ }
+ hr {
+     visibility: hidden;
+ }
+ .container-fluid {
+     width: 50%;
+     text-align: center;
+ }
+ @media (max-width: 1300px) {
+     .container-fluid {
+         width: 100%;
+     }
+     #myChart {
+         cursor: hand;
+         margin-bottom: 0px;
+         margin-top: 0px;
+     }
+ }
+ @media (max-width: 870px) {
+     hr {
+         visibility: visible;
+     }
+ }
+ .row {
+     padding: 0px;
+     margin: 0px;
+     text-align: center;
+ }
+ .btn-default {
+     width: 250px;
+     background: #222222;
+     border: 2px;
+     border-color: white;
+ }
+ .btn-caution {
+     background-color: #222222;
+     color: white;
+     border-color: white;
+     width: 250px;
+ }
+ .slider-handle {
+     background: gray;
+ }
+ .slider-range {
+     background: white;
+ }
+ .slider-selection {
+     background: #222222;
+ }
+ .dropdown-menu {} .dropdown-menu,
+ li,
+ a {
+     width: 250px;
+     font-size: 14px !important;
+ }
