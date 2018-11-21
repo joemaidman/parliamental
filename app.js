@@ -45,7 +45,7 @@ function main() {
 
 //AJAX request to fetch data from API.
 function fetchData() {
-    url = "http://data.parliament.uk/membersdataplatform/services/mnis/members/query/house=Commons|IsEligible=true";
+    url = "https://data.parliament.uk/membersdataplatform/services/mnis/members/query/house=Commons|IsEligible=true";
     country = document.getElementById('cbCountry').text.trim();
     gender = document.getElementById('cbGender').text.trim();
     partyFilter = document.getElementById('cbParty').text.trim();
@@ -89,7 +89,7 @@ function fetchData() {
     }
 
     $.ajax({
-        url: url,
+        url: url + '/',
         dataType: 'xml',
         success: function(results) {
 
